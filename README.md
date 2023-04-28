@@ -3,7 +3,7 @@
 </p>
 
 <h1>On-premises Active Directory Deployed in the Cloud (Azure)</h1>
-This tutorial outlines the implementation of on-premises Active Directory within Azure Virtual Machines.<br />
+This brief tutorial outlines the implementation of on-premises Active Directory within Azure Virtual Machines.<br />
 
 <h2>Environments and Technologies Used</h2>
 
@@ -42,9 +42,9 @@ To see the connection between both VMs, they would both need to be open through 
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/fYiRgPM.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-After creating the Active Directory in the Domain VM, we would then connect Client VM by changing the DNS setting to the Domain's private IP address and restart the computer. After logging back in, should see user name of Client VM in the active directory. Once there the we are now able to change permissions of that particular user to possibly the administrator. Now as the administrator, we should then be able to open Powershell and create users. 
+After creating the Active Directory in the Domain VM, we would then connect Client VM by changing the DNS settings to the Domain's private IP address and restart the computer. After logging back in, should see user name of Client VM in the active directory. Once there, then we are now able to change permissions of that particular user to possibly the administrator. Now as the administrator, we should then be able to open Powershell and create users as well. 
 </p>
 <br />
